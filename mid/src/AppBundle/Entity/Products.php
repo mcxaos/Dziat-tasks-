@@ -3,7 +3,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-
+use Doctrine\Common\Collections\ArrayCollection;
 /**
  * Products
  *
@@ -34,7 +34,6 @@ class Products
      * @ORM\GeneratedValue(strategy="IDENTITY")
      */
     private $id;
-
 
 
     /**
@@ -85,13 +84,4 @@ class Products
         return $this->prices;
     }
 
-    /**
-     * Get id
-     *
-     * @return integer
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
 }

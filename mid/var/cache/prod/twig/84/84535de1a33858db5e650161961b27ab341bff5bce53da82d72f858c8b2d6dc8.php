@@ -71,6 +71,6 @@ class __TwigTemplate_d8aaae505d5cce9aaa7fe36dae38b33ee3abfbeca170d77b3fcc3aac0a6
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "@Twig/Exception/error.html.twig", "E:\\OpenServer\\domains\\DziatMid.local\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle\\Resources\\views\\Exception\\error.html.twig");
+        return new Twig_Source("", "@Twig/Exception/error.html.twig", "E:\\OpenServer\\domains\\Dziat.local\\mid\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle\\Resources\\views\\Exception\\error.html.twig");
     }
 }

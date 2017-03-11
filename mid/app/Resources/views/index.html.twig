@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+    </head>
+    <body>
+    	<div class="form">
+        {{ form_start(form) }}
+		{{ form_widget(form) }}
+		{{ form_end(form) }}
+		</div>
+
+		<table border="1">
+		<tr>
+		    <th>Product name</th>
+		    <th>Price</th>
+		    <th>Type</th>
+		</tr>
+		{% for product in products %}
+    		<tr>
+    		<th>{{ product.names }}</th><th>{{ product.prices }}</th><th>{{ product.getTypeName() }}</th>
+    		</tr>
+		{% endfor %}
+		</ul>
+		</table>
+    </body>
+</html>
